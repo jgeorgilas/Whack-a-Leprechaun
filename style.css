@@ -14,27 +14,75 @@
     left: 0;
     z-index: -1;
 }
-.pot0 {
+
+.pot {
+    position: relative;
+  }
+  
+  .leprechaun {
     position: absolute;
-    top: 800px;
+    top: 0;
     left: 0;
-    z-index: 1;
-}
-.pot1 {
-    position: absolute;
-    top: 600px;
-    left: 100px;
-    z-index: 1;
-}
+    z-index: -1;
+  }
 .pot2 {
     position: absolute;
-    top: 800px;
+    top: 900px;
     left: 400px;
     z-index: 1;
 }
 .pot3 {
     position: absolute;
-    top: 700px;
-    left: 800px;
+    top: 500px;
+    left: 400px;
     z-index: 1;
 }
+.pot4 {
+    position: absolute;
+    top: 700px;
+    left: 650px;
+    z-index: 1;
+}
+.pot5 {
+    position: absolute;
+    top: 900px;
+    left: 1200px;
+    z-index: 1;
+}
+.pot6 {
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    z-index: 1;
+}
+.pot7 {
+    position: absolute;
+    top: 700px;
+    left: 1100px;
+    z-index: 1;
+}
+.pot8 {
+    position: absolute;
+    top: 810px;
+    left: 1250px;
+    z-index: 1;
+}
+.pot9 {
+    position: absolute;
+    top: 700px;
+    left: 1500px;
+    z-index: 1;
+}
+.pot10 {
+    position: absolute;
+    top: 900px;
+    left: 1700px;
+    z-index: 1;
+}
+
+
+  #leprechaun-image {
+    display: none;
+    width: 200px;
+    height: 200px;
+  }  
